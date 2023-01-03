@@ -2,7 +2,15 @@ import React from "react";
 import "./App.css";
 
 function App() {
-  return <p>Cleanedup React App</p>;
+  return (
+    <div className="App">
+      <form>
+        <h1>React File Upload</h1>
+        <input type="file" />
+        <button type="submit">Upload</button>
+      </form>
+    </div>
+  );
 }
 
 export default App;
